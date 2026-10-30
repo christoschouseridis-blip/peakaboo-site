@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Peakaboo · Κουίζ γνώσεων</title>
-<meta name="description" content="Το ελληνικό κουίζ γνώσεων: πάνω από 3.000 ερωτήσεις σε 15 κατηγορίες, ημερήσια πρόκληση, μονομαχίες με φίλους και Top 100. Δωρεάν στο Google Play.">
+<meta name="description" content="Το ελληνικό κουίζ γνώσεων: πάνω από 6.500 ερωτήσεις σε 15 κατηγορίες, ημερήσια πρόκληση, μονομαχίες με φίλους και Top 100. Δωρεάν στο App Store και στο Google Play.">
 <meta property="og:title" content="Peakaboo · Κουίζ γνώσεων">
-<meta property="og:description" content="Ημερήσια πρόκληση, μονομαχίες με φίλους και Top 100. Δωρεάν στο Google Play.">
+<meta property="og:description" content="Ημερήσια πρόκληση, μονομαχίες με φίλους και Top 100. Δωρεάν στο App Store και στο Google Play.">
 <meta property="og:image" content="https://christoschouseridis-blip.github.io/peakaboo-site/icon.png">
 <meta name="theme-color" content="#0B2A9C">
 <link rel="icon" href="favicon.png">
@@ -20,7 +20,8 @@
   h1 { margin:18px 0 0; font-size:40px; line-height:1.1; letter-spacing:.5px; }
   .tag { margin:6px 0 0; color:var(--yel); font-weight:700; font-size:18px; }
   .lead { margin:16px auto 0; color:#E3EBFF; max-width:420px; }
-  .play { display:inline-flex; align-items:center; gap:12px; margin-top:26px; background:var(--yel); color:var(--ink);
+  .stores { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:26px; }
+  .play { display:inline-flex; align-items:center; justify-content:center; min-width:220px; gap:12px; background:var(--yel); color:var(--ink);
           text-decoration:none; font-weight:800; font-size:19px; padding:14px 26px; border-radius:16px;
           border-bottom:5px solid #D9AE1F; }
   .play:active { transform:scale(.97); }
@@ -42,11 +43,17 @@
     <img src="icon.png" alt="Peakaboo" width="104" height="104">
     <h1>Peakaboo</h1>
     <p class="tag">Ανέβα στην κορυφή</p>
-    <p class="lead">Το ελληνικό κουίζ γνώσεων. Πάνω από 3.000 ερωτήσεις σε 15 κατηγορίες, μόνος σου ή με τους φίλους σου.</p>
-    <a class="play" href="https://play.google.com/store/apps/details?id=gr.peakaboo.app">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
-      <span><small>Δωρεάν στο</small>Google Play</span>
-    </a>
+    <p class="lead">Το ελληνικό κουίζ γνώσεων. Πάνω από 6.500 ερωτήσεις σε 15 κατηγορίες, μόνος σου ή με τους φίλους σου.</p>
+    <div class="stores">
+      <a class="play" href="https://apps.apple.com/app/id6826753279">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v12h8V5H8zm4 13.2a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>
+        <span><small>Δωρεάν στο</small>App Store</span>
+      </a>
+      <a class="play" href="https://play.google.com/store/apps/details?id=gr.peakaboo.app">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+        <span><small>Δωρεάν στο</small>Google Play</span>
+      </a>
+    </div>
   </div>
 </header>
 
